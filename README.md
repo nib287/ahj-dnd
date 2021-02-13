@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/umet8rvlgxgcsf0n?svg=true)](https://ci.appveyor.com/project/nib287/ahj-dnd)https://nib287.github.io/ahj-dnd/

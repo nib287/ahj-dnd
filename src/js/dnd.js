@@ -73,10 +73,10 @@ export default class Dnd {
         // удалить preview
         remove.addEventListener('click', e => e.target.closest('.preview__box').remove());
         
-        // почистить память
-        download.addEventListener('click', () => {
-            setTimeout(() => URL.revokeObjectURL(path));
-        });
+        // // почистить память
+        // download.addEventListener('click', () => {
+        //     setTimeout(() => URL.revokeObjectURL(path));
+        // });
 
        this.imageController(img)
     }

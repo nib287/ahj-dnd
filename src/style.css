@@ -5,15 +5,16 @@ body {
     font-size: 20px;
 }
 
-.background {
+.background::before {
+    content: '';
     position: absolute;
+    z-index: 2;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgb(2, 41, 168);
-    opacity: 0.8;
-   
+    background-color: rgb(4, 20, 70);
+    opacity: 0.5;
 }
 
 .page {
@@ -30,6 +31,7 @@ body {
 
 .dnd__overlap {
     position: absolute;
+    z-index: 1;
     display: inline-block;
     width: 100%;
     height: 150px;

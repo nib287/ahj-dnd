@@ -1,5 +1,7 @@
 import '../style.css';
 import DnD from './dnd'
+import XHR from './xhr'
 
-const dnd = new DnD();
+const xhr = new XHR();
+const dnd = new DnD(xhr);
 dnd.init();

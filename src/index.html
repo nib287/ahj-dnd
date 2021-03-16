@@ -9,8 +9,10 @@
     <main>
         <div class="page">
             <section class="dnd">
-                <input type="file" multiple class="dnd__overlaped">
-                <span class="dnd__overlap">Drag and Drop files here <br> or Click to select</span>
+               <form class="form" enctype="multipart/form-data">  
+                <input type="file" name="file" accept="image/*" multiple class="dnd__overlaped">
+                    <span class="dnd__overlap">Drag and Drop files here <br> or Click to select</span>
+               </form>
             </section>
             <section class="preview">
             </section>

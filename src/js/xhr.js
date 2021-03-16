@@ -1,6 +1,6 @@
 export default class XHR {
     constructor() {
-        this.host = 'http://localhost:8080/';
+        this.host = 'https://ahj-dnd.herokuapp.com/';
     }
 
     uploadImg(data) {
